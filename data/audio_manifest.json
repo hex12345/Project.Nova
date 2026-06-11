@@ -1,0 +1,11 @@
+{
+  "sfx": {
+    "truth_fire": "res://assets_local/sfx/truth_fire.wav",
+    "weak_break": "res://assets_local/sfx/weak_break.wav",
+    "wrong_hit": "res://assets_local/sfx/wrong_hit.wav",
+    "focus_on": "res://assets_local/sfx/focus_on.wav",
+    "rewind": "res://assets_local/sfx/rewind.wav",
+    "gate_correct": "res://assets_local/sfx/gate_correct.wav",
+    "gate_wrong": "res://assets_local/sfx/gate_wrong.wav"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "setId": "logic_dive_math_001",
+  "problems": [
+    {
+      "id": "tri_valid_001",
+      "prompt": "Which set can form a triangle?",
+      "answers": [
+        {
+          "text": "2, 3, 9",
+          "isCorrect": false,
+          "lane": -1
+        },
+        {
+          "text": "4, 5, 6",
+          "isCorrect": true,
+          "lane": 0
+        },
+        {
+          "text": "1, 2, 8",
+          "isCorrect": false,
+          "lane": 1
+        }
+      ]
+    },
+    {
+      "id": "root_001",
+      "prompt": "sqrt(196) = ?",
+      "answers": [
+        {
+          "text": "12",
+          "isCorrect": false,
+          "lane": -1
+        },
+        {
+          "text": "14",
+          "isCorrect": true,
+          "lane": 0
+        },
+        {
+          "text": "16",
+          "isCorrect": false,
+          "lane": 1
+        }
+      ]
+    },
+    {
+      "id": "pythagorean_001",
+      "prompt": "For legs 6 and 8, the hypotenuse is?",
+      "answers": [
+        {
+          "text": "10",
+          "isCorrect": true,
+          "lane": -1
+        },
+        {
+          "text": "11",
+          "isCorrect": false,
+          "lane": 0
+        },
+        {
+          "text": "14",
+          "isCorrect": false,
+          "lane": 1
+        }
+      ]
+    }
+  ]
+}

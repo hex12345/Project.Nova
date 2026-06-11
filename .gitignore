@@ -1,0 +1,14 @@
+.godot/
+.import/
+.vs/
+.vscode/
+mono_crash.*.json
+bin/
+obj/
+*.tmp
+*.user
+.DS_Store
+__pycache__/
+*.py[cod]
+assets_local/**/*.png.import
+assets_local/**/*.wav.import

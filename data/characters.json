@@ -1,0 +1,25 @@
+{
+  "characters": {
+    "makoto": {
+      "displayName": "Makoto Naegi Placeholder",
+      "sprites": {
+        "neutral": "res://assets_local/characters/makoto/neutral.png",
+        "thinking": "res://assets_local/characters/makoto/thinking.png",
+        "shocked": "res://assets_local/characters/makoto/shocked.png"
+      }
+    },
+    "opponent_01": {
+      "displayName": "Math Opponent 01",
+      "sprites": {
+        "neutral": "res://assets_local/characters/opponent_01/neutral.png",
+        "angry": "res://assets_local/characters/opponent_01/angry.png"
+      }
+    },
+    "opponent_02": {
+      "displayName": "Math Opponent 02",
+      "sprites": {
+        "neutral": "res://assets_local/characters/opponent_02/neutral.png"
+      }
+    }
+  }
+}

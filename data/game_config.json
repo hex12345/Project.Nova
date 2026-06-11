@@ -1,0 +1,12 @@
+{
+  "globalTimerSeconds": 420,
+  "focusMax": 100,
+  "focusDrainPerSecond": 28,
+  "focusRegenPerSecond": 12,
+  "logicDive": {
+    "baseSpeed": 26,
+    "laneDistance": 4,
+    "rewindCaptureIntervalSeconds": 1,
+    "rewindHistorySeconds": 12
+  }
+}

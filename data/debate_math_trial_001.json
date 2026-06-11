@@ -1,0 +1,72 @@
+{
+  "sceneId": "trial_math_001",
+  "leadCharacterId": "makoto",
+  "opponentIds": [
+    "opponent_01",
+    "opponent_02"
+  ],
+  "truthBullets": [
+    {
+      "id": "triangle_inequality",
+      "displayName": "Triangle Inequality",
+      "lawDescription": "For side lengths a, b, c, each pair must sum to more than the remaining side."
+    },
+    {
+      "id": "sqrt_inverse_square",
+      "displayName": "Root Extraction",
+      "lawDescription": "For nonnegative x, sqrt(x^2) = x."
+    },
+    {
+      "id": "pythagorean_theorem",
+      "displayName": "Pythagorean Theorem",
+      "lawDescription": "For a right triangle, a\u00b2 + b\u00b2 = c\u00b2."
+    }
+  ],
+  "statements": [
+    {
+      "speakerId": "opponent_01",
+      "rawText": "A triangle with sides 2, 3, and 9 is definitely valid.",
+      "speed": 230,
+      "jitterStrength": 5,
+      "rotationStrength": 9,
+      "weakPoints": [
+        {
+          "id": "wp_triangle_001",
+          "text": "2 + 3 > 9",
+          "type": "Contradiction",
+          "requiredTruthBulletId": "triangle_inequality"
+        }
+      ]
+    },
+    {
+      "speakerId": "opponent_02",
+      "rawText": "sqrt(144) is not 12. That is impossible.",
+      "speed": 210,
+      "jitterStrength": 4,
+      "rotationStrength": 7,
+      "weakPoints": [
+        {
+          "id": "wp_root_001",
+          "text": "sqrt(144) \u2260 12",
+          "type": "Contradiction",
+          "requiredTruthBulletId": "sqrt_inverse_square"
+        }
+      ]
+    },
+    {
+      "speakerId": "noise",
+      "rawText": "white-noise interference",
+      "speed": 270,
+      "jitterStrength": 9,
+      "rotationStrength": 16,
+      "weakPoints": [
+        {
+          "id": "noise_001",
+          "text": "NOISE // NOISE // NOISE",
+          "type": "WhiteNoise",
+          "requiredTruthBulletId": "silencer"
+        }
+      ]
+    }
+  ]
+}

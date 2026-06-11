@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://src/LogicDive/BranchGate.cs" id="1_gate"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_gate"]
+size = Vector3(2, 4, 1)
+
+[node name="BranchGate" type="Area3D"]
+script = ExtResource("1_gate")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_gate")

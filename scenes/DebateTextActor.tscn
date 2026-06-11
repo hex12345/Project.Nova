@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/Debate/DebateTextActor.cs" id="1_text"]
+
+[node name="DebateTextActor" type="Label"]
+custom_minimum_size = Vector2(360, 48)
+text = "weak point"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_text")
